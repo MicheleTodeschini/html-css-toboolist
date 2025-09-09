@@ -9,3 +9,21 @@
     --onstm: #b0c926;
     --rec: #48adeb;
     }
+    .container {
+    margin: 0 auto;
+    width: 80%;
+    }
+
+    .logo {
+    height: 100px;
+    }
+   
+    .logotext {
+    vertical-align: middle;
+    color: var(--sfondo);
+    font-size: 100px;
+    }
+
+    .btn-primo {
+        background: var(--primi);
+    }

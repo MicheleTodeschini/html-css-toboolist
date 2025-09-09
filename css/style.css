@@ -11,18 +11,26 @@
     }
     .topbar {
     height: 50px;
+    width: 100%;
     background: white;
     
     }
+    body {
+        margin: 0;
+        background-color: lightgrey;
+    }
 
     .centro {
-        background: white;
-        padding-left: 150px;
-        border-width: 14px;
+        /*background: white; */
+    
     }
 
     .esterno {
-        background: red;
+        background: white;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 6px;
+        width: 80%;
     }
     
     .logo {

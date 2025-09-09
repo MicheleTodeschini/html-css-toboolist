@@ -1,3 +1,6 @@
+html,body {
+    height: 100%;
+}
 :root {
     --sfondo: #f6f8f9;
     --add-task: #47adf1;
@@ -9,21 +12,55 @@
     --onstm: #b0c926;
     --rec: #48adeb;
     }
-    .container {
+    .topbar {
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
+    height: 50px;
+    
     }
 
     .logo {
-    height: 100px;
+    height: 40px;
+    vertical-align: middle;
     }
    
     .logotext {
-    vertical-align: middle;
-    color: var(--sfondo);
-    font-size: 100px;
+    vertical-align: right;
+    font-size: 20px;
+    }
+    .main {
+        text-align: center;
     }
 
     .btn-primo {
         background: var(--primi);
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+        border: 0px;
+        
     }
+    .btn-secondo {
+        color: gray;
+border-radius: 5px;
+border: 0px;
+    }
+
+    .linea {
+        background-color: white;
+        height: 1px;
+    }
+
+    .editorial {
+        border-radius: 5px;
+        border: 0px;
+        background: var(--primi);
+        color: white;
+    }
+
+.check {
+    border-radius: 50%;
+    background: white;
+    color: green;
+    border-color: green;
+}

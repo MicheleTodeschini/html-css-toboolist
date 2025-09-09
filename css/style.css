@@ -64,3 +64,28 @@ border: 0px;
     color: green;
     border-color: green;
 }
+.cross {
+    border-radius: 50%;
+    background: white;
+    color: red;
+    border-color: red;
+}
+
+.q1goals {
+    border-radius: 5px;
+        border: 0px;
+        background: var(--mal);
+        color: white;
+}
+.recuiting {
+    border-radius: 5px;
+        border: 0px;
+        background: var(--ijh);
+        color: white;
+}
+.mobile {
+    border-radius: 5px;
+        border: 0px;
+        background: var(--sutms);
+        color: white;
+}

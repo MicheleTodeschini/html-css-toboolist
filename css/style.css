@@ -1,6 +1,3 @@
-html,body {
-    height: 100%;
-}
 :root {
     --sfondo: #f6f8f9;
     --add-task: #47adf1;
@@ -13,23 +10,31 @@ html,body {
     --rec: #48adeb;
     }
     .topbar {
-    margin: 0 auto;
-    width: 100%;
     height: 50px;
+    background: white;
     
     }
 
+    .centro {
+        background: white;
+        padding-left: 150px;
+        border-width: 14px;
+    }
+
+    .esterno {
+        background: red;
+    }
+    
     .logo {
     height: 40px;
     vertical-align: middle;
+    background: white;
     }
    
     .logotext {
     vertical-align: right;
     font-size: 20px;
-    }
-    .main {
-        text-align: center;
+    background: white;
     }
 
     .btn-primo {
@@ -46,10 +51,6 @@ border-radius: 5px;
 border: 0px;
     }
 
-    .linea {
-        background-color: white;
-        height: 1px;
-    }
 
     .editorial {
         border-radius: 5px;

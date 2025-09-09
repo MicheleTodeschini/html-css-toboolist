@@ -25,9 +25,16 @@
     
     }
 
-    .esterno {
+    .esterno1 {
         background: white;
         margin: 20px auto;
+        padding: 20px;
+        border-radius: 6px;
+        width: 80%;
+    }
+    .esterno2 {
+        background: white;
+        margin: -15px auto;
         padding: 20px;
         border-radius: 6px;
         width: 80%;
